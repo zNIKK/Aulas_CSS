@@ -1,0 +1,13 @@
+@charset "UTF8";
+
+body {
+    background-color:wheat;
+}
+h1 {
+    color: darkred; 
+    font-size: 1.5em
+}
+
+p {
+    text-align:justify;
+}

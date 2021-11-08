@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body {
+            margin:0px;
+        }
+
+        div#quadro {
+            width: 500px;
+            height: 400px;
+            border: 1px solid black
+        }
+
+        div#quadradoazul {
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+
+        }
+        div#quadradoverde {
+            position: relative;
+            top: 200px;
+            left: 400px;
+            background-color: green;
+            width: 100px;
+            height: 100px;
+
+        }
+
+        div#quadradovermelho {
+            position: static;
+            /* Um elemento com position: static; não está posicionado de qualquer maneira especial; É sempre posicionado de acordo com o fluxo normal da página: */
+            background-color: red;
+            width: 100px;
+            height: 100px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id='quadro'>
+    <div id="quadradoazul"></div>
+    <div id='quadradoverde'></div>
+    <div id='quadradovermelho'></div>
+    </div>
+</body>
+</html>

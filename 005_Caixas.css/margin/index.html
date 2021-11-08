@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Margin</title>
+    <style>
+        div#A{
+            background-color: rgb(216, 134, 252);
+            /* Aplica para todos os quatro lados */
+            margin: 1em;       
+            width: 100px;
+            height: 100px;
+        }
+
+        div#B {
+            background-color: rgb(216, 134, 252);
+            /* vertical | horizontal */
+            margin: 5% auto;
+            width: 100px;
+            height: 100px;
+        }
+
+        div#C {
+            background-color: rgb(216, 134, 252);
+            /* topo | horizontal | inferior */
+            margin: 1em auto 2em;
+            width: 100px;
+            height: 100px;
+        }
+
+        div#D {
+            background-color: rgb(216, 134, 252);
+            /* topo | direita | inferior | esquerda */
+            margin: 2px 1em 0 auto;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Margem</h1>
+    <p>As margens são usadas para criar espaço em torno de elementos, fora de qualquer fronteira definida.</p>
+    <p>Aperte <strong>control+shift+c</strong> Para abrir o inspecionar: </p>
+    <div id='A'></div>
+    <div id='B'></div>
+    <div id='C'></div>
+    <div id='D'></div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de padding</title>
+    <style>
+        div#A{
+            margin: 30px;
+
+            background-color: rgb(216, 134, 252);
+            /* Aplica para todos os quatro lados */
+            padding: 1em;       
+            width: 100px;
+            height: 100px;
+        }
+
+        div#B {
+            margin: 30px;
+
+            background-color: rgb(216, 134, 252);
+            /* vertical | horizontal */
+            padding: 5% 1em;
+            width: 100px;
+            height: 100px;
+        }
+
+        div#C {
+            margin: 30px;
+
+            background-color: rgb(216, 134, 252);
+            /* topo | horizontal | inferior */
+            padding: 1em 1em 2em;
+            width: 100px;
+            height: 100px;
+        }
+
+        div#D {
+            margin: 30px;
+            background-color: rgb(216, 134, 252);
+            /* topo | direita | inferior | esquerda */
+            padding: 2px 1em 0 1em;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Padding</h1>
+    <p>O padding é usado para criar espaço em torno do conteúdo de um elemento, dentro de quaisquer bordas definidas.</p>
+    <p>Aperte <strong>control+shift+c</strong> Para abrir o inspecionar: </p>
+    <div id='A'>A</div>
+    <div id='B'>B</div>
+    <div id='C'>C</div>
+    <div id='D'>D</div>
+</body>
+</html>

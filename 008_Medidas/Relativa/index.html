@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vh-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, remitial-scale=50.0">
+    <title>Medidas</title>
+    <style>
+        body {
+            text-align: center;
+            margin: auto;
+        }
+        p {
+            display: inline;
+        }
+        
+        div#em {
+            margin: auto;
+            margin-top: 30px;
+            background-color: blue;
+            width: 50em;
+            height: 20em;
+        }
+        div#ex {
+            margin: auto;
+            margin-top: 30px;
+            background-color: red;
+            width: 50ex;
+            height: 20ex;
+        }
+        div#rem {
+            margin: auto;
+            margin-top: 30px;
+            background-color: green;
+            width: 50rem;
+            height: 20rem;
+        }
+        div#vw {
+            margin: auto;
+            margin-top: 30px;
+            background-color: yellow;
+            width: 50vw;
+            height: 20vw;
+        }
+
+        div#vh {
+            margin: auto;
+            margin-top: 30px;
+            background-color: olive;
+            width: 50vh;
+            height: 20vh;
+        }
+
+        div#vmax {
+            margin: auto;
+            margin-top: 30px;
+            background-color: aqua;
+            width: 50vmax;
+            height: 20vmax;
+        }
+
+        div#vmin {
+            margin: auto;
+            margin-top: 30px;
+            background-color: dimgrey;
+            width: 50vmin;
+            height: 20vmin;
+        }
+
+        div#porcento {
+            margin: auto;
+            margin-top: 30px;
+            background-color: chocolate;
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- 
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+
+    16px = 1em
+
+    -->
+
+    <h1>Medidas Relativa</h1>
+    <p>são medidas que se baseiam em um valor de referência defremido anteriormente. Portanto essas unidades são mais úteis porque podem mudar de acordo com o tamanho da tela, se adaptando ao contexto em que estão inseridas.</p>
+
+    <div id='em'></div>                 <!-- tamanho base dessa unidade deriva da largura da letra M -->
+    <p>em</p><div id='ex'></div>        <!-- Em relação à altura x da fonte atual (raramente usada) -->
+    <p>ex</p><div id='rem'></div>       <!-- Em relação ao tamanho da fonte do elemento raiz -->
+    <p>rem</p><div id='vw'></div>       <!-- Em relação a 50% da largura da Janela -->
+    <p>vw</p><div id='vh'></div>        <!-- Em relação a 50% da altura da Janela -->
+    <p>vh</p><div id='porcento'>&nbsp;</div>  <!-- Em relação ao elemento pai -->
+    <p>%</p><div id='vmax'></div>       <!-- Em relação a 50% da dimensão menor da viewport -->
+    <p>vmax</p><div id='vmin'></div>    <!-- Em relação a 50% da dimensão maior da viewport -->
+    <p>vmin</p>
+</body>
+</html>
