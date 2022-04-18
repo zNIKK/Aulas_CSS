@@ -1,0 +1,25 @@
+p::first-line { /* Estilo na primeira linha */
+    color: red;
+
+}
+
+p::first-letter { /* Estilo na primeira letra */
+    color: red;
+    font-size: 5rem;
+}
+
+li::before { /* Depois do elemento */
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("/Aulas_CSS/009_Seletores.css/PseudoElementos/images/Google__G__Logo.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p::selection { /* Texto selecionado */
+    background-color: yellow;
+    color: orangered;
+}

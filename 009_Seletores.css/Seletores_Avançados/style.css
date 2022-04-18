@@ -1,0 +1,78 @@
+/*  
+    SELETORES PERSONALIZADOS
+
+    #    = id
+    .    = class
+    :    = pseudo-class
+    ::   = pseudo-element
+    >    = children
+    +    = Adjacent sibling combinator
+    ~    = General sibling combinator
+
+*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    color: red;
+    text-decoration:none;
+    font-weight:bold;
+}
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color:black;
+
+}
+
+a:active {
+    color:aqua;
+}
+
+a::after {
+    content: ' [link] ';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+
+    
+#div2 + p { /* Primeiro elemento 'p' logo depois da div2 */
+    color: white;
+    background-color: purple; 
+}
+
+#div1 ~ p { /* Todos os elementos 'p' logo depois da div1*/
+    color: white;
+    background-color: green;
+}
+/* 
+
+[width="500"] {
+    background-color: green;
+}
+
+*/
+
+[title~="titulo"] { /* todo title que tenha a palavra 'titulo' */
+    background-color: green;
+}
+
+
+[title^="ti"] { /* todo title que começa com 'ti' */
+    background-color: yellow;
+}
+
+[title$="2"] { /* todo title que termina com o '2' */
+    background-color: blue;
+}
+
+[title*="x"] { /* todo title que tiver a letra 'x' em algum lugar */
+    background-color: red;
+}

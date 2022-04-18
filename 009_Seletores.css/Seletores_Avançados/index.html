@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>seletores</title>
+    
+</head>
+
+<body>
+    <header>
+        <div id="div1">
+            <p>paragrafo 1</p>
+        </div>
+        <p>paragrafo 1</p>
+        <p>paragrafo 2</p>
+        <p>paragrafo 3</p>
+        <p>paragrafo 4</p>
+
+        <div>
+            <div id="div2">
+                <p>paragrafo 1</p>
+            </div>
+            <p>Titulo 1</p>
+            <p>Titulo 2</p>
+        </div>
+        <div id="div3" >
+            <h1 title="titulo 1">paragrafo 1</h1>
+            <h2 title="texto 1">paragrafo 2</h2>
+            <h3 title="titulo 2">paragrafo 3</h3>
+            
+        </div>
+    </header>
+
+    <h1>Personalizando links</h1>
+
+    <ul>
+        <li><a class="especial" href="">link</a></li>
+    </ul>
+
+    <script>
+        let titulos = document.querySelectorAll("[title]")
+        // POE EM UMA ARRAY TODOS OS SELETORES QUE TENHAM TITLE
+        console.log(titulos)
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+input:focus { /* Se o objeto esta em foco */
+    color:red;
+
+}
+
+li:first-child { /* O primeiro filho de um elemento pai*/
+    color:blue;
+}
+
+#lista2 > li:first-of-type {
+    color: blue;
+}
