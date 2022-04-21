@@ -1,0 +1,37 @@
+.container {
+    height: 500px;
+    color:white;
+    display: grid;
+    padding: 10px;
+    background-color: gray;
+    grid-template: auto auto / auto auto auto ;
+    
+    justify-content: center;
+      
+    /*
+    flex-start(padrão) -- deixa o container no começo a direita
+    flex-end -- deixa o container no final a esquerda
+    center -- deixa o container no centro
+    space-between -- deixa um espaço entre os objetos relativos ao tamanho do container
+    space-around -- deixa um espaço em volta de cada objeto
+    space-evenly -- deixa um espaço uniformemente do lado de cada objeto
+    */
+    grid-gap: 15px;
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.rect {
+    /* width: 100px;
+    height: 100px; */
+}

@@ -1,0 +1,29 @@
+.container {
+    color:white;
+    display: grid;
+    padding: 10px;
+    background-color: gray;
+    grid-template: 100px 100px / 1fr 3fr 1fr;
+
+    /* grid-row-gap: 10px; /* espaço entre templates */ 
+    /* grid-column-gap: 20px; */
+
+    grid-gap: 15px;
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.rect {
+    /* width: 100px;
+    height: 100px; */
+}

@@ -7,6 +7,14 @@ li:first-child { /* O primeiro filho de um elemento pai*/
     color:blue;
 }
 
-#lista2 > li:first-of-type {
+li:nth-child(5) { /* O quinto elemento filho dentro da lista */
+    color: blueviolet;
+}
+
+li:nth-child(2n) { /* Todos os elementos que sejam divididos por 2 */
+    color: green;
+}
+
+#lista2 > li:first-of-type { /* O primeiro do mesmo elemento declarado */
     color: blue;
 }

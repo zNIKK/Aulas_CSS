@@ -1,0 +1,5 @@
+img {
+    transform: rotate(45Deg); /* Rodar em 45 graus */ 
+    transform: scale(0.5, 1); /* (horizontal, vertical) Modifica a escala */
+    transform: skew(30Deg, 40Deg); /* (horizontal, vertical) Torce a imagem apartir do valor colocado */
+}

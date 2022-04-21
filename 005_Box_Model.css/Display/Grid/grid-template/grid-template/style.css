@@ -1,0 +1,29 @@
+.container {
+    color:white;
+    display: grid;
+    padding: 10px;
+    background-color: gray;
+    /* 
+    grid-template-rows: 200px 100px;
+    grid-template-columns: 1fr 3fr 1fr; /* fr = 1 fração -- 3fr é o triplo de 1fr
+    */
+    grid-template: 200px 100px / 1fr 3fr 1fr;
+
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.rect {
+    /* width: 100px;
+    height: 100px; */
+}
